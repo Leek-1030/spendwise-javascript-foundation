@@ -1,0 +1,70 @@
+
+/* SpendWise - Main Styling */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f7fb;
+    color: #263238;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #123c35;
+    color: white;
+    text-align: center;
+    padding: 30px 20px;
+}
+
+header h1 {
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+
+main {
+    max-width: 850px;
+    margin: 50px auto;
+    padding: 20px;
+}
+
+.welcome,
+.results {
+    background-color: white;
+    padding: 30px;
+    margin-bottom: 25px;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    text-align: center;
+}
+
+h2 {
+    color: #123c35;
+    margin-bottom: 15px;
+}
+
+button {
+    background-color: #15966c;
+    color: white;
+    border: none;
+    padding: 14px 25px;
+    margin-top: 20px;
+    border-radius: 7px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #107452;
+}
+
+footer {
+    background-color: #123c35;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
